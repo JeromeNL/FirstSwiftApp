@@ -18,9 +18,12 @@ struct TextBootcamp: View {
 //            .italic()
 //            .strikethrough(true, color: Color.green)
 //            .font(.system(size: 24, weight: .semibold, design: .serif))
-            .multilineTextAlignment(.center)
-        // test
-        // nog een test
+            //.baselineOffset(10.0)
+            //.kerning(10)
+            .multilineTextAlignment(.leading)
+            .foregroundColor(.red)
+            
+        
     }
 }
 
