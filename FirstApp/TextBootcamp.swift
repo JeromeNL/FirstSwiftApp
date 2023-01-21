@@ -19,8 +19,7 @@ struct TextBootcamp: View {
 //            .strikethrough(true, color: Color.green)
 //            .font(.system(size: 24, weight: .semibold, design: .serif))
             .multilineTextAlignment(.center)
-        // test
-        // nog een test
+        
     }
 }
 
