@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TextBootcamp: View {
     var body: some View {
-        Text("Hello, World! this is the swiftful thinking bootcam im learn a lot, so this text is also way to big.".capitalized)
+        Text("Hello, World! this is the swiftful thinking bootcam im learn a lot, so this text is also way to big.")
 //            .font(.body)
 //            //.fontWeight(.medium)
 //            .bold()
@@ -22,7 +22,7 @@ struct TextBootcamp: View {
             //.kerning(10)
             .multilineTextAlignment(.leading)
             .foregroundColor(.red)
-            .frame(width: 200, height: 100, alignment: .center)
+            
         
     }
 }
