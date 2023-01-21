@@ -20,6 +20,7 @@ struct TextBootcamp: View {
 //            .font(.system(size: 24, weight: .semibold, design: .serif))
             .multilineTextAlignment(.center)
         // test
+        // nog een test
     }
 }
 
