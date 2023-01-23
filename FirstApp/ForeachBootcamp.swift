@@ -18,8 +18,12 @@ struct ForeachBootcamp: View {
             ForEach(data.indices){ index in
                 Text("\(data[index])")
             }
+            ForEach(0..<100){ index in
+                Circle()
+                    .frame(height: 50)
+            }
         }
-        
+         
         
 //        VStack{
 //            ForEach(0..<10){ index in
