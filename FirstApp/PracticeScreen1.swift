@@ -31,7 +31,7 @@ struct PracticeScreen1: View {
                     .overlay(alignment: .topTrailing){
                         ZStack {
                             Circle()
-                                .fill(Color.red)
+                                .fill(Color("Avansrood"))
                                 .frame(width: 20, height: 20)
                         }
                         Text("15")
@@ -47,7 +47,7 @@ struct PracticeScreen1: View {
                         .foregroundColor(Color.black)
                     Text("morgen om 08.45 uur")
                         .font(.system(size: 20, weight: .bold))
-                        .foregroundColor(Color.red)
+                        .foregroundColor(Color("Avansrood"))
                 }
                 Spacer()
                     .frame(width: 50, height: 50)
@@ -103,7 +103,7 @@ struct PracticeScreen1: View {
                 .frame(width: 300, height: 75)
             Text("JOUW OPDRACHTEN")
                 .font(.system(size: 20, weight: .bold))
-                .foregroundColor(Color.red)
+                .foregroundColor(Color("Avansrood"))
                 .frame(width: 350, height: 30, alignment: .leading)
             Divider()
                 .frame(height: 1)
@@ -124,10 +124,12 @@ struct PracticeScreen1: View {
                     }
                     Text("Verlopen")
                         .font(.system(size: 15) )
-                        .foregroundColor(Color.red)
+                        .foregroundColor(Color("Avansrood"))
                         .fontWeight(.bold)
                         .frame(width: 100, height: 20, alignment: .top)
                 }
+                
+                
                 
                 HStack(spacing: 15) {
                     Image(systemName: "list.clipboard")
@@ -144,7 +146,7 @@ struct PracticeScreen1: View {
                     }
                     Text("Verlopen")
                         .font(.system(size: 15) )
-                        .foregroundColor(Color.red)
+                        .foregroundColor(Color("Avansrood"))
                         .fontWeight(.bold)
                         .frame(width: 100, height: 20, alignment: .top)
                 }
@@ -164,7 +166,7 @@ struct PracticeScreen1: View {
                     }
                     Text("Verlopen")
                         .font(.system(size: 15) )
-                        .foregroundColor(Color.red)
+                        .foregroundColor(Color("Avansrood"))
                         .fontWeight(.bold)
                         .frame(width: 100, height: 20, alignment: .top)
                 }
@@ -183,7 +185,7 @@ struct PracticeScreen1: View {
                     .frame(width: 300, height: 40)
                 Text("NIEUWS")
                     .font(.system(size: 20, weight: .bold))
-                    .foregroundColor(Color.red)
+                    .foregroundColor(Color("Avansrood"))
                     .frame(width: 350, height: 30, alignment: .leading)
                 Divider()
                 VStack{
@@ -204,15 +206,58 @@ struct PracticeScreen1: View {
                                 .foregroundColor(Color.gray)
                                 Text("Punt nieuws")
                                     .font(.system(size: 15, weight: .bold))
-                                .foregroundColor(Color.red)
+                                .foregroundColor(Color("Avansrood"))
+                            }
+                            
+                        }
+                    }.padding(.leading, 5)
+                    HStack{
+                        Image("Zermatt")
+                            .resizable()
+                            .frame(width: 112, height: 63)
+                            .cornerRadius(5)
+                        VStack(alignment: .leading) {
+                            Text("Dit is een willekeurige titel voor een nieuws artikel")
+                                .font(.system(size: 15, weight: .bold))
+                                .foregroundColor(Color.black)
+                                .padding(.bottom, 3)
+                
+                            HStack {
+                                Text("Bron: ")
+                                    .font(.system(size: 15, weight: .bold))
+                                .foregroundColor(Color.gray)
+                                Text("Punt nieuws")
+                                    .font(.system(size: 15, weight: .bold))
+                                .foregroundColor(Color("Avansrood"))
+                            }
+                        }
+                        
+                    }.padding(.leading, 5)
+                    HStack{
+                        Image("Zermatt")
+                            .resizable()
+                            .frame(width: 112, height: 63)
+                            .cornerRadius(5)
+                        VStack(alignment: .leading) {
+                            Text("Dit is een willekeurige titel voor een nieuws artikel")
+                                .font(.system(size: 15, weight: .bold))
+                                .foregroundColor(Color.black)
+                                .padding(.bottom, 3)
+                
+                            HStack {
+                                Text("Bron: ")
+                                    .font(.system(size: 15, weight: .bold))
+                                .foregroundColor(Color.gray)
+                                Text("Punt nieuws")
+                                    .font(.system(size: 15, weight: .bold))
+                                .foregroundColor(Color("Avansrood"))
                             }
                             
                         }
                         
-                    }
+                    }.padding(.leading, 5)
                     
                 }
-                
             }
             
             
