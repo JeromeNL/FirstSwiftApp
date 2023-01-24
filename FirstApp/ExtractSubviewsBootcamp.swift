@@ -37,11 +37,8 @@ struct ExtractSubviewsBootcamp: View {
                     }
                 }
             }
-            
         }
     }
-    
-    
 }
 
 struct ExtractSubviewsBootcamp_Previews: PreviewProvider {
