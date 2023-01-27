@@ -17,7 +17,7 @@ struct ToggleBootcamp: View {
         
         ZStack {
             var bgColor = isOn ? Color.green : Color.red
-            bgColor.ignoresSafeArea(.all)
+            
             
             Toggle(
                 isOn: $isOn,
