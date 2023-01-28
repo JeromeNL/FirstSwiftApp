@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C152761298525450095FEAC /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C152760298525450095FEAC /* TapGestureBootcamp.swift */; };
 		4C152763298528010095FEAC /* CustomModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C152762298528010095FEAC /* CustomModels.swift */; };
+		4C152765298530130095FEAC /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C152764298530130095FEAC /* ViewModelBootcamp.swift */; };
 		4C46214B297D67B3008EC0CA /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46214A297D67B3008EC0CA /* ImageBootcamp.swift */; };
 		4C46214D297D6F22008EC0CA /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46214C297D6F22008EC0CA /* FrameBootcamp.swift */; };
 		4C46214F297D7D65008EC0CA /* BackgroundOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46214E297D7D65008EC0CA /* BackgroundOverlayBootcamp.swift */; };
@@ -85,6 +86,7 @@
 /* Begin PBXFileReference section */
 		4C152760298525450095FEAC /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
 		4C152762298528010095FEAC /* CustomModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModels.swift; sourceTree = "<group>"; };
+		4C152764298530130095FEAC /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		4C46214A297D67B3008EC0CA /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
 		4C46214C297D6F22008EC0CA /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		4C46214E297D7D65008EC0CA /* BackgroundOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBootcamp.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				4CA479B5298406D5008E6944 /* PickerBootcamp.swift */,
 				4C152762298528010095FEAC /* CustomModels.swift */,
 				4CA479BD2984188E008E6944 /* StepperBootcamp.swift */,
+				4C152764298530130095FEAC /* ViewModelBootcamp.swift */,
 				4CA479BB298414B5008E6944 /* DatePickerBootcamp.swift */,
 				4CA479B929840F4C008E6944 /* ColorPickerBootcamp.swift */,
 				4C91AD0C2984858F008EC4AD /* DarkmodeBootcamp.swift */,
@@ -433,6 +436,7 @@
 				4C82A16D2980354300AF1ACE /* ButtonsBootcamp.swift in Sources */,
 				4C6D48E0297C75340099D5B6 /* TextBootcamp.swift in Sources */,
 				4CBA2D2829802E1D00088F2E /* SafeAreaBootcamp.swift in Sources */,
+				4C152765298530130095FEAC /* ViewModelBootcamp.swift in Sources */,
 				4C86A7DB2983295A00A9D487 /* ContextMenuBootcamp.swift in Sources */,
 				4CA479BC298414B5008E6944 /* DatePickerBootcamp.swift in Sources */,
 				4CC414B22982AE180028690C /* ActionSheetBootcamp.swift in Sources */,
