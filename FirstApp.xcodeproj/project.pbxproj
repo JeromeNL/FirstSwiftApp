@@ -45,6 +45,7 @@
 		4CA736E2297DC71600F2CC91 /* SandboxTill11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA736E1297DC71600F2CC91 /* SandboxTill11.swift */; };
 		4CA736E4297DE9B800F2CC91 /* PracticeScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA736E3297DE9B800F2CC91 /* PracticeScreen1.swift */; };
 		4CB08DCB29851DE900B1EB18 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB08DCA29851DE900B1EB18 /* OnAppearBootcamp.swift */; };
+		4CB08DCD2985200D00B1EB18 /* IfletGuardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB08DCC2985200D00B1EB18 /* IfletGuardBootcamp.swift */; };
 		4CBA2D1E297F350700088F2E /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA2D1D297F350700088F2E /* SpacerBootcamp.swift */; };
 		4CBA2D20297F3AC500088F2E /* InitializeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA2D1F297F3AC500088F2E /* InitializeBootcamp.swift */; };
 		4CBA2D22297F41CD00088F2E /* ForeachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA2D21297F41CD00088F2E /* ForeachBootcamp.swift */; };
@@ -118,6 +119,7 @@
 		4CA736E1297DC71600F2CC91 /* SandboxTill11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxTill11.swift; sourceTree = "<group>"; };
 		4CA736E3297DE9B800F2CC91 /* PracticeScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeScreen1.swift; sourceTree = "<group>"; };
 		4CB08DCA29851DE900B1EB18 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
+		4CB08DCC2985200D00B1EB18 /* IfletGuardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfletGuardBootcamp.swift; sourceTree = "<group>"; };
 		4CBA2D1D297F350700088F2E /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
 		4CBA2D1F297F3AC500088F2E /* InitializeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeBootcamp.swift; sourceTree = "<group>"; };
 		4CBA2D21297F41CD00088F2E /* ForeachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeachBootcamp.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				4C86A7DA2983295A00A9D487 /* ContextMenuBootcamp.swift */,
 				4CB08DCA29851DE900B1EB18 /* OnAppearBootcamp.swift */,
 				4C86A7DC29832C8600A9D487 /* TextFieldBootcamp.swift */,
+				4CB08DCC2985200D00B1EB18 /* IfletGuardBootcamp.swift */,
 				4CA479B5298406D5008E6944 /* PickerBootcamp.swift */,
 				4CA479BD2984188E008E6944 /* StepperBootcamp.swift */,
 				4CA479BB298414B5008E6944 /* DatePickerBootcamp.swift */,
@@ -436,6 +439,7 @@
 				4C91AD0D2984858F008EC4AD /* DarkmodeBootcamp.swift in Sources */,
 				4C82A17B2980A4AE00AF1ACE /* AnimationBootcamp.swift in Sources */,
 				4C46214D297D6F22008EC0CA /* FrameBootcamp.swift in Sources */,
+				4CB08DCD2985200D00B1EB18 /* IfletGuardBootcamp.swift in Sources */,
 				4C91AD0B29847FBF008EC4AD /* TabviewBootcamp.swift in Sources */,
 				4C82A1812981D88300AF1ACE /* SheetsBootcamp.swift in Sources */,
 				4CA479B6298406D5008E6944 /* PickerBootcamp.swift in Sources */,
